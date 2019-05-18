@@ -1,0 +1,33 @@
+body {
+    padding: 30px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+#filter {
+    padding-bottom: 30px;
+}
+
+.osusume-image {
+    max-width: 200px;
+}
+
+tr.disable {
+    background-color: #eeeeee;
+    color: #999999;
+}
+
+tr.hide {
+    display: none;
+}
+
+td {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+td.content {
+    max-width: 250px;
+}

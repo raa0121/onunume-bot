@@ -1,0 +1,30 @@
+= content contents
+  .btn-group#filter
+    button.btn.btn-default.enable-filter type="button" data-hide="show" Toggle hiding enables
+    button.btn.btn-default.disable-filter type="button" data-hide="show" Toggle hiding disables
+
+  table.table.table-bordered.table-condensed.osusumes
+    thead
+      tr
+        th Name
+        th Pattern
+        th Content
+        th Status
+    tbody
+    {{range .results}}
+      {{if .Enable}}
+        tr.enable
+          td.name = {{.Name}}
+          td.regexp = {{.Regexp}}
+          td.content = {{.Content}}
+          td
+            button.btn.btn-default.manage type="button" id=x.Name Disable
+      {{else}}
+        tr.disable
+          td.name = {{.Name}}
+          td.regexp = {{.Regexp}}
+          td.content = {{.Content}}
+          td
+            button.btn.btn-default.manage type="button" id=x.Name Enable
+       {{end}}
+    {{end}}

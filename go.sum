@@ -52,6 +52,7 @@ github.com/pborman/uuid v1.2.0/go.mod h1:X/NO0urCmaxf9VXbdlT7C2Yzkj2IKimNn4k+gtP
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/raa0121/go-kokoro-io v0.0.0-20190418082509-65889988080e h1:WAwbZkbgyKMYR5DgleJ2JOSRG9BEcCyuHLbC2x5bC5M=
 github.com/raa0121/go-kokoro-io v0.0.0-20190418082509-65889988080e/go.mod h1:O94d5siFOyHnzpw4ac80/6UDPa6wS3mn4523SJhINnc=
+github.com/raa0121/onunume-bot v0.0.0-20190518091603-352f75ff5c82 h1:2rMTPsKzNiFlyTgTbJ8+vtnM+iRaqTZI2snwOVuW++g=
 github.com/realistschuckle/gohaml v0.0.0-20150908172437-41f18a797853 h1:ub5uW1NEcuwmInkX3Pbh2VcMpxlEh3WOl05wnvMf/78=
 github.com/realistschuckle/gohaml v0.0.0-20150908172437-41f18a797853/go.mod h1:ICtn3GiXrSMq7EU0bqB6bxcp0d4XQBJ7+SQsWFhPKec=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
